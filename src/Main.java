@@ -88,6 +88,7 @@ public class Main {
         if (thatMore) {
             System.out.println(+ three + "большее число из трех.);
         }
+    }
 
 
 
