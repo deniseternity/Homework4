@@ -1,30 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        int age1 >= 18;
-        if (age1 >= 18) {
-        System.out.println("Если возраст человека равен" + age1 + ",то он совершеннолетний.");
-    }
-        int age2 <= 18;
-        if (age2 <= 18) {
-            System.out.println("Если возраст человек равен" + age2 + ",то он не достиг совершеннолетия, нужно немного подождать ");
+        int age = 18;
+        if (age >= 18) {
+        System.out.println("Вы совершенолетний человек!");
+        } else {
+            System.out.println("Вы не достигли совершеннолетия, вам нужно неможко подождать!");
         }
 
-        int weather1 = 5;
-        if (weather1 <= 5) {
-            System.out.println("На улице" + weather1 + "градусов,нужно надеть шапку");
-        }
-        int weather2 = 5;
-            if (weather2 >= 5) {
-                System.out.println("На улице" + weather2 + "можно идти без шапки");
+        int weather = 5;
+        if (weather <= 5) {
+            System.out.println("На улице холодно,нужно надеть шапку");
+        } else {
+                System.out.println("На улице тепло,можно идти без шапки");
             }
 
-            int speed1 = 60;
-            if (speed1 > 60) {
-                System.out.println("Если скорость" + speed1 + ",то придется заплатить штраф");
-            }
-            int speed2 = 60;
-            if (speed2 <=60) {
-                System.out.println("Если скорость" + speed2 + ",то можно ездить спокойно");
+            int speed = 60;
+            if (speed > 60) {
+                System.out.println("Если скорость" + speed + ",то придется заплатить штраф");
+            } else {
+                System.out.println("Если скорость" + speed + ",то можно ездить спокойно");
             }
 
         int age1 = 2;
